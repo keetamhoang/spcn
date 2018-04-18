@@ -23,6 +23,8 @@ Route::get('dang-nhap', 'Frontend\AuthController@loginView');
 Route::post('login', 'Frontend\AuthController@login');
 Route::get('admin/logout', 'Frontend\AuthController@logout');
 
+Route::post('question', 'Frontend\HomeController@question');
+
 // social
 Route::get('login-social/redirect', 'Frontend\AuthController@redirectToProvider');
 Route::get('login-social/callback', 'Frontend\AuthController@handleProviderCallback');
@@ -51,6 +53,12 @@ Route::group(['prefix' => 'admin', 'middleware' => ['auth.admin']], function () 
 
     Route::get('users', 'Backend\AccountController@index');
     Route::get('userAttribute.data', 'Backend\AccountController@userAttribute');
+
+    Route::get('accounts', 'Backend\AccountController@index');
+    Route::get('userAttribute.data', 'Backend\AccountController@userAttribute');
+
+    Route::get('accounts/contents', 'Backend\AccountController@contentIndex');
+    Route::get('contentAttribute.data', 'Backend\AccountController@contentAttribute');
 
     Route::get('transactions', 'Backend\TransactionController@index');
     Route::get('transactionAttribute.data', 'Backend\TransactionController@transactionAttribute');

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Backend;
 
 use App\Model\Account;
+use App\Model\Content;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Yajra\DataTables\Facades\DataTables;
@@ -14,7 +15,7 @@ class AccountController extends AdminController
     }
 
     public function userAttribute(Request $request) {
-        $brands = Account::all();
+        $brands = Account::orderBy('created_at', 'desc')->get();
 
         return $this->datatable($brands);
     }
@@ -22,36 +23,59 @@ class AccountController extends AdminController
     public function datatable($brands)
     {
         return DataTables::of($brands)
-            ->editColumn('link_profile', function ($brand) {
-                $link = str_replace('https://', '', $brand->link_profile);
-                $link = str_replace('http://', '', $link);
+//            ->editColumn('link_profile', function ($brand) {
+//                $link = str_replace('https://', '', $brand->link_profile);
+//                $link = str_replace('http://', '', $link);
+//
+//                $url = '<a href="http://' . $link . '" target="_blank">' . $link . '</a>';
+//
+//                return $url;
+//            })->editColumn('status', function ($brand) {
+//                if ($brand->status == config('const.ACTIVE')) {
+//                    $text = '<button data-brand-id="' . $brand->id . '" class="btn btn-success status-btn" data-status="1" type="button">HIỂN THỊ</button>';
+//                } else {
+//                    $text = '<button data-brand-id="' . $brand->id . '" class="btn btn-danger status-btn" data-status="0" type="button">KHÔNG HIỂN THỊ</button>';
+//                }
+//
+//                return $text;
+//            })->editColumn('image', function ($brand) {
+//                $image = '<img src="'.$brand->avatar.'" style="width: 100%">';
+//
+//                $image = '<div style="width: 100px">'.$image.'</div>';
+//
+//                return $image;
+//            })->addColumn('action', function ($brand) {
+//                $url = '<a type="button" class="btn blue btn-outline" href="/admin/brands/'.$brand->id.'">Sửa</a><a href="/admin/brands/delete/'.$brand->id.'" type="button" class="btn red btn-outline delete-btn">Xóa</a>';
+//
+//                return $url;
+//            })->addColumn('ck', function ($brand) {
+//                $url = '<a data-brand-id="'.$brand->id.'" type="button" class="btn blue ck-btn">Xem CK</a>';
+//
+//                return $url;
+//            })->rawColumns(['link_profile', 'image', 'action', 'status', 'ck'])
+            ->make(true);
+    }
 
-                $url = '<a href="http://' . $link . '" target="_blank">' . $link . '</a>';
+    public function contentIndex() {
+        return view('admin.user.content_index');
+    }
 
-                return $url;
-            })->editColumn('status', function ($brand) {
-                if ($brand->status == config('const.ACTIVE')) {
-                    $text = '<button data-brand-id="' . $brand->id . '" class="btn btn-success status-btn" data-status="1" type="button">HIỂN THỊ</button>';
-                } else {
-                    $text = '<button data-brand-id="' . $brand->id . '" class="btn btn-danger status-btn" data-status="0" type="button">KHÔNG HIỂN THỊ</button>';
-                }
+    public function contentAttribute(Request $request) {
+        $brands = Content::orderBy('created_at', 'desc')->get();
 
-                return $text;
-            })->editColumn('image', function ($brand) {
-                $image = '<img src="'.$brand->avatar.'" style="width: 100%">';
+        return $this->contentDatatable($brands);
+    }
 
-                $image = '<div style="width: 100px">'.$image.'</div>';
-
-                return $image;
-            })->addColumn('action', function ($brand) {
-                $url = '<a type="button" class="btn blue btn-outline" href="/admin/brands/'.$brand->id.'">Sửa</a><a href="/admin/brands/delete/'.$brand->id.'" type="button" class="btn red btn-outline delete-btn">Xóa</a>';
-
-                return $url;
-            })->addColumn('ck', function ($brand) {
-                $url = '<a data-brand-id="'.$brand->id.'" type="button" class="btn blue ck-btn">Xem CK</a>';
-
-                return $url;
-            })->rawColumns(['link_profile', 'image', 'action', 'status', 'ck'])
+    public function contentDatatable($brands)
+    {
+        return DataTables::of($brands)
+            ->editColumn('name', function ($brand) {
+                return $brand->account->name;
+            })->editColumn('phone', function ($brand) {
+                return $brand->account->phone;
+            })->editColumn('email', function ($brand) {
+                return $brand->account->email;
+            })->rawColumns(['name', 'phone', 'email'])
             ->make(true);
     }
 }

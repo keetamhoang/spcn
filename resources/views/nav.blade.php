@@ -15,72 +15,72 @@
 
         <li class="nav-item  ">
             <a href="javascript:;" class="nav-link nav-toggle">
-                <i class="fa fa-star-half-o"></i>
-                <span class="title">Thương hiệu & CK</span>
-                <span class="arrow"></span>
-            </a>
-            <ul class="sub-menu">
-                <li class="nav-item  ">
-                    <a href="{{ url('admin/brands') }}" class="nav-link ">
-                        <span class="title">Danh sách</span>
-                    </a>
-                </li>
-                <li class="nav-item  ">
-                    <a href="{{ url('admin/brands/create') }}" class="nav-link ">
-                        <span class="title">Thêm mới</span>
-                    </a>
-                </li>
-            </ul>
-        </li>
-
-        <li class="nav-item  ">
-            <a href="javascript:;" class="nav-link nav-toggle">
                 <i class="fa fa-users"></i>
-                <span class="title">Quản lý người dùng</span>
+                <span class="title">Người dùng liên hệ</span>
                 <span class="arrow"></span>
             </a>
             <ul class="sub-menu">
                 <li class="nav-item  ">
-                    <a href="{{ url('admin/users') }}" class="nav-link ">
-                        <span class="title">Danh sách</span>
+                    <a href="{{ url('admin/accounts') }}" class="nav-link ">
+                        <span class="title">Danh sách người dùng</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="{{ url('admin/accounts/contents') }}" class="nav-link ">
+                        <span class="title">Danh sách nội dung</span>
                     </a>
                 </li>
             </ul>
         </li>
 
-        <li class="nav-item  ">
-            <a href="javascript:;" class="nav-link nav-toggle">
-                <i class="fa fa-gift"></i>
-                <span class="title">Quản lý sản phẩm</span>
-                <span class="arrow"></span>
-            </a>
-            <ul class="sub-menu">
-                <li class="nav-item  ">
-                    <a href="{{ url('admin/products') }}" class="nav-link ">
-                        <span class="title">Danh sách</span>
-                    </a>
-                </li>
-                <li class="nav-item  ">
-                    <a href="{{ url('admin/products/create') }}" class="nav-link ">
-                        <span class="title">Thêm mới</span>
-                    </a>
-                </li>
-            </ul>
-        </li>
+        {{--<li class="nav-item  ">--}}
+            {{--<a href="javascript:;" class="nav-link nav-toggle">--}}
+                {{--<i class="fa fa-users"></i>--}}
+                {{--<span class="title">Quản lý người dùng</span>--}}
+                {{--<span class="arrow"></span>--}}
+            {{--</a>--}}
+            {{--<ul class="sub-menu">--}}
+                {{--<li class="nav-item  ">--}}
+                    {{--<a href="{{ url('admin/users') }}" class="nav-link ">--}}
+                        {{--<span class="title">Danh sách</span>--}}
+                    {{--</a>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
+        {{--</li>--}}
 
-        <li class="nav-item  ">
-            <a href="javascript:;" class="nav-link nav-toggle">
-                <i class="fa fa-credit-card "></i>
-                <span class="title">Quản lý Transactions</span>
-                <span class="arrow"></span>
-            </a>
-            <ul class="sub-menu">
-                <li class="nav-item  ">
-                    <a href="{{ url('admin/transactions') }}" class="nav-link ">
-                        <span class="title">Danh sách</span>
-                    </a>
-                </li>
-            </ul>
-        </li>
+        {{--<li class="nav-item  ">--}}
+            {{--<a href="javascript:;" class="nav-link nav-toggle">--}}
+                {{--<i class="fa fa-gift"></i>--}}
+                {{--<span class="title">Quản lý sản phẩm</span>--}}
+                {{--<span class="arrow"></span>--}}
+            {{--</a>--}}
+            {{--<ul class="sub-menu">--}}
+                {{--<li class="nav-item  ">--}}
+                    {{--<a href="{{ url('admin/products') }}" class="nav-link ">--}}
+                        {{--<span class="title">Danh sách</span>--}}
+                    {{--</a>--}}
+                {{--</li>--}}
+                {{--<li class="nav-item  ">--}}
+                    {{--<a href="{{ url('admin/products/create') }}" class="nav-link ">--}}
+                        {{--<span class="title">Thêm mới</span>--}}
+                    {{--</a>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
+        {{--</li>--}}
+
+        {{--<li class="nav-item  ">--}}
+            {{--<a href="javascript:;" class="nav-link nav-toggle">--}}
+                {{--<i class="fa fa-credit-card "></i>--}}
+                {{--<span class="title">Quản lý Transactions</span>--}}
+                {{--<span class="arrow"></span>--}}
+            {{--</a>--}}
+            {{--<ul class="sub-menu">--}}
+                {{--<li class="nav-item  ">--}}
+                    {{--<a href="{{ url('admin/transactions') }}" class="nav-link ">--}}
+                        {{--<span class="title">Danh sách</span>--}}
+                    {{--</a>--}}
+                {{--</li>--}}
+            {{--</ul>--}}
+        {{--</li>--}}
     </ul>
 </div>

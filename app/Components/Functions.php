@@ -225,4 +225,25 @@ class Functions
 
         return $filename;
     }
+
+    public static function detectPhoneNumber($string) {
+        preg_match('/\+?[0-9][0-9()\-.\s+]{7,20}[0-9]/', $string, $matches);
+        $phone = preg_replace('/[^0-9]/', '', $matches);
+
+        if (count($phone) > 0) {
+            $phone = $phone[0];
+
+            if ($phone[0] == 8 and $phone[1] == 4) {
+                $phone = preg_replace('/84/', '0', $phone, 1);
+            } elseif ($phone[0] != 0) {
+                $phone = '0' . $phone;
+            }
+
+            if (strlen($phone) >= 10 && strlen($phone) <= 11) {
+                return $phone;
+            }
+        }
+
+        return '';
+    }
 }

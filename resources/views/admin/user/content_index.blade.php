@@ -1,7 +1,7 @@
 @extends('admin')
 
 @section('content')
-    <h3 class="h3-title">Quản lý người dùng</h3>
+    <h3 class="h3-title">Quản lý nội dung người dùng quan tâm</h3>
 
     @include('flash_message')
 
@@ -24,7 +24,7 @@
                     <th>Tên</th>
                     <th>Số điện thoại</th>
                     <th>Email</th>
-                    {{--<th>Nội dung</th>--}}
+                    <th>Nội dung</th>
                     <th>Ngày tạo</th>
                     {{--<th>Hành động</th>--}}
                 </tr>
@@ -84,7 +84,7 @@
 //            ],
             searching: false,
             ajax: {
-                url: '{{ url('admin/userAttribute.data') }}',
+                url: '{{ url('admin/contentAttribute.data') }}',
                 data: function (d) {
 
                 }
@@ -94,6 +94,7 @@
                 {data: 'name', name: 'name'},
                 {data: 'phone', name: 'phone'},
                 {data: 'email', name: 'email'},
+                {data: 'content', name: 'content'},
                 {data: 'created_at', name: 'created_at'},
 //                {data: 'action', name: 'action'},
             ],

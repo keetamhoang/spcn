@@ -486,18 +486,20 @@
                 <div class="col-md-6" id="guicauhoi">
                     <h3>Gửi câu hỏi cho bác sĩ</h3>
                     <div class="form-question">
-                        <form class="send-data" method="POST" action="https://www.manhluctruongxuan.com/">
+                        <div class="alert alert-success" id="alert-question" style="display: none">Gửi thành công! Chúng tôi sẽ sớm liên hệ với bạn.</div>
+                        <div class="alert alert-danger" id="alert-question-danger" style="display: none"></div>
+                        <form class="send-data" method="POST" action="{{ url('question') }}">
                             <div class="form-row">
                                 <div class="col">
-                                    <input name="txtname" type="text" class="form-control" placeholder="Họ tên"
+                                    <input name="name" type="text" class="form-control" placeholder="Họ tên"
                                            required="required">
                                 </div>
                                 <div class="col">
-                                    <input name="txtphone" type="text" class="form-control" placeholder="Số điện thoại"
+                                    <input name="phone" type="text" class="form-control" placeholder="Số điện thoại"
                                            required="required">
                                 </div>
                                 <div class="col">
-                                    <input name="txtemail" type="text" class="form-control" placeholder="Email">
+                                    <input name="email" type="text" class="form-control" placeholder="Email">
                                 </div>
                             </div>
                             <div class="form-row">

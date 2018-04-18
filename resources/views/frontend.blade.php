@@ -5,6 +5,7 @@
     <!-- Required meta tags -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="#" rel="shortcut icon"
           type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -203,7 +204,9 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form method="POST" action="{{ url('dang-ky') }}" class="modal-form">
+                <div class="alert alert-success" id="alert-question-popup" style="display: none">Đăng ký thành công! Chúng tôi sẽ sớm liên hệ với bạn.</div>
+                <div class="alert alert-danger" id="alert-question-danger-popup" style="display: none"></div>
+                <form method="POST" id="popup-question" action="{{ url('question') }}" class="modal-form">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Họ tên" name="name" required="required">
                     </div>
@@ -437,23 +440,73 @@ charset = "utf-8" ></script>
             postOrderToGoogle(container, 'Đặt mua thuốc thành công')
             return false;
         });
-        $('.send-data').on('submit', function (event) {
-            var container = $(this);
-            postContactToGoogle(container, 'Gửi thành công! Chúng tôi sẽ sớm liên hệ với bạn.')
-            return false;
-        });
-        $('.modal-form').on('submit', function (event) {
-            var container = $(this);
-            postContactToGoogle(container, 'Gửi thành công! Chúng tôi sẽ sớm liên hệ với bạn.')
-            return false;
-        });
+//        $('.send-data').on('submit', function (event) {
+//            var container = $(this);
+//            postContactToGoogle(container, 'Gửi thành công! Chúng tôi sẽ sớm liên hệ với bạn.')
+//            return false;
+//        });
+//        $('.modal-form').on('submit', function (event) {
+//            var container = $(this);
+//            postContactToGoogle(container, 'Gửi thành công! Chúng tôi sẽ sớm liên hệ với bạn.')
+//            return false;
+//        });
     })
 </script>
 <script type="text/javascript">
     $(document).ready(function ($) {
-//        $('#show-modal-livechat').removeClass('display-block');
-//        $('#show-modal-livechat').addClass('display-none');
-//        $('#livechat').addClass('show');
+        $('.send-data').on('submit', function (event) {
+            event.preventDefault();
+
+            var form = $(this).serialize();
+
+            $.ajax({
+                type: 'post',
+                data: form,
+                url: '{{ url('question') }}',
+                dataType: 'json',
+                success: function (response) {
+                    if (response.status == 1) {
+                        $('#alert-question').show();
+                        $('#alert-question-danger').hide();
+                        $('input[name="name"]').val('');
+                        $('input[name="phone"]').val('');
+                        $('input[name="email"]').val('');
+                        $('textarea[name="content"]').val('');
+                    } else {
+                        $('#alert-question-danger').html(response.message);
+                        $('#alert-question-danger').show();
+                        $('#alert-question').hide();
+                    }
+                }
+            });
+        });
+
+        $('#popup-question').on('submit', function (event) {
+            event.preventDefault();
+
+            var form = $(this).serialize();
+
+            $.ajax({
+                type: 'post',
+                data: form,
+                url: '{{ url('question') }}',
+                dataType: 'json',
+                success: function (response) {
+                    if (response.status == 1) {
+                        $('#alert-question-popup').show();
+                        $('#alert-question-danger-popup').hide();
+                        $('input[name="name"]').val('');
+                        $('input[name="phone"]').val('');
+                        $('input[name="email"]').val('');
+                        $('textarea[name="content"]').val('');
+                    } else {
+                        $('#alert-question-danger-popup').html(response.message);
+                        $('#alert-question-danger-popup').show();
+                        $('#alert-question-popup').hide();
+                    }
+                }
+            });
+        });
 
         $('#show-modal-livechat').on('click', function (event) {
             event.preventDefault();
@@ -471,6 +524,13 @@ charset = "utf-8" ></script>
     });
 </script>
 
+<script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+</script>
 
 <a id="show-modal-livechat" href="#" title="" class="d-none d-md-block d-sm-block">
     <img src="/frontend/image/icon-messenger.png" alt="">
