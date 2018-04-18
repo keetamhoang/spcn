@@ -1,0 +1,17 @@
+#show-modal-livechat {
+    display: none !important;
+}
+
+#livechat {
+    display: block !important;;
+}
+
+@media (max-width: 767px) {
+    #livechat {
+        display: none !important;;
+    }
+
+    #show-modal-livechat {
+        display: block !important;
+    }
+}

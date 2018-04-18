@@ -10,7 +10,6 @@ use Image;
 class HomeController extends Controller
 {
     public function index() {
-        // sp dc gen link moi nhat
-        return view('frontend.home.index');
+        return view('frontend.index');
     }
 }

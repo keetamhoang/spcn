@@ -1253,7 +1253,7 @@ img {
         outline: 0!important
     }
     .navbar-toggler-icon {
-        background: url(images/icon-menu.png) center no-repeat;
+        background: url(../image/icon-menu.png) center no-repeat;
         background-size: 35px
     }
     #nguyennhan .cta a.btn {
