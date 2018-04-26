@@ -1,17 +1,17 @@
-#show-modal-livechat {
-    display: none !important;
-}
+/*#show-modal-livechat {*/
+    /*display: block !important;*/
+/*}*/
 
-#livechat {
-    display: block !important;;
-}
+/*#livechat {*/
+    /*display: none !important;;*/
+/*}*/
 
-@media (max-width: 767px) {
-    #livechat {
-        display: none !important;;
-    }
+/*@media (max-width: 767px) {*/
+    /*#livechat {*/
+        /*display: none !important;;*/
+    /*}*/
 
-    #show-modal-livechat {
-        display: block !important;
-    }
-}
+    /*#show-modal-livechat {*/
+        /*display: block !important;*/
+    /*}*/
+/*}*/
