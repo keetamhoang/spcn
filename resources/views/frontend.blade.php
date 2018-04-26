@@ -232,7 +232,7 @@
         </div>
     </div>
 </div>
-<audio controls autoplay style="display: none;">
+<audio id="sound" style="display: none;">
     <source src="{{ '/chat.mp3' }}" type="audio/mpeg">
     Your browser does not support the audio element.
 </audio>
@@ -538,6 +538,8 @@ charset = "utf-8" ></script>
 
         function showPopup() {
             $('#show-modal-livechat').click();
+            var audio = new Audio('{{ '/chat.mp3' }}');
+            audio.play();
         }
     })
 </script>
@@ -545,7 +547,7 @@ charset = "utf-8" ></script>
 <a id="show-modal-livechat" href="#" title="" class="d-none d-md-block d-sm-block">
     <img src="/frontend/image/icon-messenger.png" alt="">
 </a>
-<a id="chat-facebook-mobile" href="https://m.me/keemusicbank" target="_blank" title=""
+<a id="chat-facebook-mobile" href="https://m.me/Nam-V%C6%B0%C6%A1ng-M%C3%A3nh-L%E1%BB%B1c-474590932959964" target="_blank" title=""
    class="d-block d-md-none d-sm-none">
     <img src="/frontend/image/icon-messenger.png" alt="">
 </a>
