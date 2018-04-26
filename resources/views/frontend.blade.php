@@ -534,14 +534,19 @@ charset = "utf-8" ></script>
 
 <script>
     $(document).ready(function () {
-        setTimeout(showPopup, 4000);
+        var time1 = setTimeout(showPopup, 4000);
 
         function showPopup() {
             $('#show-modal-livechat').click();
             var audio = new Audio('{{ '/chat.mp3' }}');
             audio.play();
+
+            setTimeout(function () {
+                $('#RegisterModal').modal('show');
+            }, 4000);
         }
-    })
+
+    });
 </script>
 
 <a id="show-modal-livechat" href="#" title="" class="d-none d-md-block d-sm-block">
