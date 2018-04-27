@@ -16,7 +16,7 @@
         <li class="nav-item  ">
             <a href="javascript:;" class="nav-link nav-toggle">
                 <i class="fa fa-users"></i>
-                <span class="title">Người dùng liên hệ</span>
+                <span class="title">Danh sách đăng ký</span>
                 <span class="arrow"></span>
             </a>
             <ul class="sub-menu">
@@ -33,20 +33,45 @@
             </ul>
         </li>
 
-        {{--<li class="nav-item  ">--}}
-            {{--<a href="javascript:;" class="nav-link nav-toggle">--}}
-                {{--<i class="fa fa-users"></i>--}}
-                {{--<span class="title">Quản lý người dùng</span>--}}
-                {{--<span class="arrow"></span>--}}
-            {{--</a>--}}
-            {{--<ul class="sub-menu">--}}
-                {{--<li class="nav-item  ">--}}
-                    {{--<a href="{{ url('admin/users') }}" class="nav-link ">--}}
-                        {{--<span class="title">Danh sách</span>--}}
-                    {{--</a>--}}
-                {{--</li>--}}
-            {{--</ul>--}}
-        {{--</li>--}}
+        <li class="nav-item  ">
+            <a href="javascript:;" class="nav-link nav-toggle">
+                <i class="fa fa-sitemap"></i>
+                <span class="title">Quản lý danh mục</span>
+                <span class="arrow"></span>
+            </a>
+            <ul class="sub-menu">
+                <li class="nav-item  ">
+                    <a href="{{ url('admin/categories') }}" class="nav-link ">
+                        <span class="title">Danh sách</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="{{ url('admin/categories/create') }}" class="nav-link ">
+                        <span class="title">Thêm mới</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
+
+        <li class="nav-item  ">
+            <a href="javascript:;" class="nav-link nav-toggle">
+                <i class="fa fa-file"></i>
+                <span class="title">Quản lý bài viết</span>
+                <span class="arrow"></span>
+            </a>
+            <ul class="sub-menu">
+                <li class="nav-item  ">
+                    <a href="{{ url('admin/posts') }}" class="nav-link ">
+                        <span class="title">Danh sách</span>
+                    </a>
+                </li>
+                <li class="nav-item  ">
+                    <a href="{{ url('admin/posts/add') }}" class="nav-link ">
+                        <span class="title">Thêm mới</span>
+                    </a>
+                </li>
+            </ul>
+        </li>
 
         {{--<li class="nav-item  ">--}}
             {{--<a href="javascript:;" class="nav-link nav-toggle">--}}

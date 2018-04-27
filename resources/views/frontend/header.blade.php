@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-expand-md" id="top-menu">
     <div class="container">
-        <a class="navbar-brand" href="{{ url('#') }}">
+        <a class="navbar-brand" href="{{ url('/') }}">
             <img src="/frontend/image/logo(1).png" alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07"

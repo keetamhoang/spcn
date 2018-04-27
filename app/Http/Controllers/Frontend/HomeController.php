@@ -64,4 +64,12 @@ class HomeController extends Controller
             'message' => 'Thành công'
         ]);
     }
+
+    public function kienthuc() {
+        return view('frontend.kienthuc');
+    }
+
+    public function detail($slug, $id) {
+        return view('frontend.detail');
+    }
 }
