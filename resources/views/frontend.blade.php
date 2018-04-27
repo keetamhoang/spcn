@@ -522,17 +522,17 @@ charset = "utf-8" ></script>
 
 <script>
     $(document).ready(function () {
-        {{--var time1 = setTimeout(showPopup, 4000);--}}
+        var time1 = setTimeout(showPopup, 4000);
 
-        {{--function showPopup() {--}}
-            {{--$('#show-modal-livechat').click();--}}
-            {{--var audio = new Audio('{{ '/chat.mp3' }}');--}}
-            {{--audio.play();--}}
+        function showPopup() {
+            $('#show-modal-livechat').click();
+            var audio = new Audio('{{ '/chat.mp3' }}');
+            audio.play();
 
-            {{--setTimeout(function () {--}}
-                {{--$('#RegisterModal').modal('show');--}}
-            {{--}, 4000);--}}
-        {{--}--}}
+            setTimeout(function () {
+                $('#RegisterModal').modal('show');
+            }, 4000);
+        }
 
     });
 </script>
