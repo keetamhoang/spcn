@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Frontend;
 use App\Components\Functions;
 use App\Model\Account;
 use App\Model\Content;
+use App\Model\Post;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Image;
@@ -66,10 +67,18 @@ class HomeController extends Controller
     }
 
     public function kienthuc() {
-        return view('frontend.kienthuc');
+        $posts = Post::where('status', 1)->orderBy('created_at', 'desc')->get();
+
+        return view('frontend.kienthuc', compact('posts'));
     }
 
     public function detail($slug, $id) {
-        return view('frontend.detail');
+        $post = Post::find($id);
+
+        if (empty($post)) {
+            abort('404');
+        }
+
+        return view('frontend.detail', compact('post'));
     }
 }

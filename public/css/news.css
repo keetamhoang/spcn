@@ -512,7 +512,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 .newscontent .content p, .detail-content div {
     line-height: 25px;
     color: #303030;
-    font-family: Times New Roman;
+    /*font-family: Times New Roman;*/
 }
 
 .newscontent .content p {
