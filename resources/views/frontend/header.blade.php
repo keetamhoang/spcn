@@ -32,6 +32,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('#page-footer') }}">Liên hệ</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/kien-thuc-y-hoc-va-cac-bai-thuoc-huu-dung') }}">Bài viết</a>
+                </li>
             </ul>
 
         </div>
