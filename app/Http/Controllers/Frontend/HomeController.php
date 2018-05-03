@@ -22,7 +22,7 @@ class HomeController extends Controller
         $email = $request->input('email');
         $content = $request->input('content');
 
-        if (empty($name) or empty($phone) or empty($email) or empty($content)) {
+        if (empty($name) or empty($phone) or empty($content)) {
             return response([
                 'status' => 0,
                 'message' => 'Bạn hãy điền đủ thông tin câu hỏi yêu cầu nhé!'
