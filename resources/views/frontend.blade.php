@@ -108,32 +108,21 @@
                 <ul class="list-unstyled">
                     <li class="media">
                         <img class="mr-3"
-                             src="/frontend/image/sam-cau.png"
+                             src="/frontend/image/loc-nhung.png"
                              alt="Sâm Cau">
                         <div class="media-body">
-                            <h5 class="mt-0 mb-1">Sâm cau</h5>
-                            <p>Trong thân và rễ Sâm Cau có nhóm chất cycloartan triterpen saponin có tác dụng làm tăng
-                                khả năng sản xuất nội tiết tố nam testosterone, chống co thắt, làm thư giãn cơ và giảm
-                                ức chế thần kinh. Vì vậy Sâm cau chủ điều trị liệt dương, yếu sinh lý, tinh lạnh, tiểu
-                                tiện không cầm được, chân tay, lưng lạnh. Ngoài ra, sâm câu còn có tác dụng chống oxy
-                                hóa, tăng cường hệ miễn dịch, tăng cường năng lực hoạt động của tuyến sinh dục nam, tăng
-                                cường khả năng thích nghi trong điều kiện khắc nghiệt, tăng cường hoạt động của tim, làm
-                                giãn mạch vành.
+                            <h5 class="mt-0 mb-1">Lộc nhung</h5>
+                            <p>Có tác dụng sinh tinh, cải thiện chất lượng tinh trùng, bổ dương giúp cường dương và tăng cường sinh lực.
                             </p>
                         </div>
                     </li>
                     <li class="media my-4">
                         <img class="mr-3"
-                             src="/frontend/image/nam-toa-duong.png"
+                             src="/frontend/image/nhan-sam.png"
                              alt="Nấm tỏa dương">
                         <div class="media-body">
-                            <h5 class="mt-0 mb-1">Nấm tỏa dương</h5>
-                            <p>Có tác dụng bổ thận tráng dương, ích tuỷ sinh tinh, mạnh tình dục, bổ tỳ vị, nhuận tràng,
-                                thông tiểu. Chủ trị yếu sinh lý, liệt dương, lãnh cảm, đau lưng, mỏi gối, ù tai, chân
-                                tay lạnh, biếng ăn. Vì trong nấm toả dương có chứa thành phần L-arginin, trong cơ thể
-                                L-arginin sẽ nhờ enzym Argininase chuyển hoá thành NO -&gt; PDE5 -&gt; GMP -&gt; giãn
-                                mạch bộ phận sinh dục gây cương cứng bền vững. Vì vậy, nấm toả dương đặc biệt hiệu quả
-                                trong điều trị bệnh rối loạn cương dương.
+                            <h5 class="mt-0 mb-1">Nhân sâm</h5>
+                            <p>Là vị thuốc quý giúp bồi bổ cơ thể, tăng cường sinh lực và tạo sự dẻo dai của cơ thể.
                             </p>
                         </div>
                     </li>
@@ -423,9 +412,34 @@ charset = "utf-8" ></script>
         }
 
         $('.order-form').on('submit', function (event) {
-            var container = $(this);
-            postOrderToGoogle(container, 'Đặt mua thuốc thành công')
-            return false;
+//            var container = $(this);
+//            postOrderToGoogle(container, 'Đặt mua thuốc thành công')
+//            return false;
+            event.preventDefault();
+
+            var form = $(this).serialize();
+
+            $.ajax({
+                type: 'post',
+                data: form,
+                url: '{{ url('question') }}',
+                dataType: 'json',
+                success: function (response) {
+                    if (response.status == 1) {
+                        $('#alert-question-order').show();
+                        $('#alert-question-danger-order').hide();
+                        $('input[name="name"]').val('');
+                        $('input[name="phone"]').val('');
+                        $('input[name="email"]').val('');
+                        $('textarea[name="content"]').val('');
+                        $('input[name="content"]').val('');
+                    } else {
+                        $('#alert-question-danger-order').html(response.message);
+                        $('#alert-question-danger-order').show();
+                        $('#alert-question-order').hide();
+                    }
+                }
+            });
         });
 //        $('.send-data').on('submit', function (event) {
 //            var container = $(this);
@@ -521,6 +535,7 @@ charset = "utf-8" ></script>
 
 <script>
     $(document).ready(function () {
+        @if (Request::getHost() != 'spcn.local')
         var time1 = setTimeout(showPopup, 4000);
 
         function showPopup() {
@@ -532,6 +547,7 @@ charset = "utf-8" ></script>
                 $('#RegisterModal').modal('show');
             }, 4000);
         }
+        @endif
 
     });
 </script>

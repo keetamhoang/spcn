@@ -289,22 +289,21 @@
         <div class="container">
             <h3>Thành phần <span>Nam Vương Mãnh Lực</span></h3>
             <div class="content">
-                <p>Thành phần của bài thuốc: Sâm Cau, Tỏa Dương (Nấm Ngọc Cẩu), Dâm Dương Hoắc, Ba Kích, Nhục Thung Dung,
-                    Phúc Bồn Tử, Đỗ Trọng, Thỏ Ty Tử, Tang Phiêu Tiêu, Tục Đoạn, Câu Kỷ Tử… và nhiều thảo dược quý hiếm
+                <p>Thành phần của bài thuốc: Lộc Nhung, Nhân Sâm, Dâm Dương Hoắc, Bạch Tật Lê, Câu Kỳ Tử, Ba Kích, Nhục Thung Dung, Trâu Cố, Bá Bệnh (hàm lượng cao 320mg), L-Arginin, Kẽm, Vitamin E,... và nhiều thảo dược quý hiếm
                     khác.
                 </p>
             </div>
             <div class="row ">
                 <div class="col">
                     <a href="https://www.manhluctruongxuan.com/#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
-                        <img src="/frontend/image/sam-cau.png" alt="">
-                        <p>Sâm cau</p>
+                        <img src="/frontend/image/loc-nhung.png" alt="">
+                        <p>Lộc Nhung</p>
                     </a>
                 </div>
                 <div class="col">
                     <a href="https://www.manhluctruongxuan.com/#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
-                        <img src="/frontend/image/nam-toa-duong.png" alt="">
-                        <p>Nấm ngọc cẩu</p>
+                        <img src="/frontend/image/nhan-sam.png" alt="">
+                        <p>Nhân Sâm</p>
                     </a>
                 </div>
                 <div class="col">
@@ -316,7 +315,7 @@
                 <div class="col">
                     <a href="https://www.manhluctruongxuan.com/#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
                         <img src="/frontend/image/nhuc-thung-dung.png" alt="">
-                        <p>Nhung thung dung</p>
+                        <p>Nhục thung dung</p>
                     </a>
                 </div>
                 <div class="col">
@@ -516,8 +515,7 @@
                     </div>
                 </div>
             </div>
-            <h4 class="text-center">Hơn 80.000 quý ông đã lấy lại đỉnh cao phong độ, nâng tầm sung mãn với Mãnh lực Trường
-                xuân. <br>
+            <h4 class="text-center">Hơn 80.000 quý ông đã lấy lại đỉnh cao phong độ, nâng tầm sung mãn với Nam Vương Mãnh Lực. <br>
                 Còn bạn thì sao? Đừng trì hoãn thêm nữa vì hạnh phúc không đợi bạn.
             </h4>
 
@@ -565,12 +563,12 @@
                         <img src="/frontend/image/logo-manh-luc-truong-xuan.png" class="logo">
 
                     </div>
-                    <a class="carousel-control-prev" href="https://www.manhluctruongxuan.com/#carouselCustomer"
+                    <a class="carousel-control-prev" href="#carouselCustomer"
                        role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="https://www.manhluctruongxuan.com/#carouselCustomer"
+                    <a class="carousel-control-next" href="#carouselCustomer"
                        role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
@@ -588,42 +586,44 @@
                 </div>
                 <div class="col-sm-7">
                     <h3>Đặt mua sản phẩm Nam Vương Mãnh Lực</h3>
-                    <form class="order-form" method="POST" action="https://www.manhluctruongxuan.com/">
+                    <div class="alert alert-success" id="alert-question-order" style="display: none">Đặt hàng thành công! Chúng tôi sẽ sớm liên hệ với bạn.</div>
+                    <div class="alert alert-danger" id="alert-question-danger-order" style="display: none"></div>
+                    <form class="order-form" method="POST" action="{{ url('question') }}">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputEmail4">Họ tên</label>
                                 <input type="text" class="form-control" id="inputName" placeholder="Tên của bạn"
-                                       name="txtname">
+                                       name="name" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputPhone">Điện thoại</label>
                                 <input type="text" class="form-control" id="inputPhone" placeholder="Số điện thoại của bạn"
-                                       name="txtphone">
+                                       name="phone" required>
                             </div>
                         </div>
                         <div class="form-row">
-                            <div class="form-group col-md-6">
+                            <div class="form-group col-md-12">
                                 <label for="inputAddress">Địa chỉ</label>
                                 <input type="text" class="form-control" id="inputAddress"
-                                       placeholder="Nhập địa chỉ giao nhận thuốc" name="txtaddress">
+                                       placeholder="Nhập địa chỉ giao nhận thuốc" name="content" required>
                             </div>
-                            <div class="form-group col-md-6">
-                                <label for="inputmedical">Sản phẩm</label>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="inputmedical" id="inputmedical1"
-                                           value="Nam Vương Mãnh Lực Plus" checked="" data-attr="plus">
-                                    <label class="form-check-label" for="inputmedical1">
-                                        Nam Vương Mãnh Lực PLus
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="inputmedical" id="inputmedical2"
-                                           value="Nam Vương Mãnh Lực phổ thông" data-attr="pt">
-                                    <label class="form-check-label" for="inputmedical2">
-                                        Nam Vương Mãnh Lực phổ thông
-                                    </label>
-                                </div>
-                            </div>
+                            {{--<div class="form-group col-md-6">--}}
+                                {{--<label for="inputmedical">Sản phẩm</label>--}}
+                                {{--<div class="form-check">--}}
+                                    {{--<input class="form-check-input" type="radio" name="inputmedical" id="inputmedical1"--}}
+                                           {{--value="Nam Vương Mãnh Lực Plus" checked="" data-attr="plus">--}}
+                                    {{--<label class="form-check-label" for="inputmedical1">--}}
+                                        {{--Nam Vương Mãnh Lực PLus--}}
+                                    {{--</label>--}}
+                                {{--</div>--}}
+                                {{--<div class="form-check">--}}
+                                    {{--<input class="form-check-input" type="radio" name="inputmedical" id="inputmedical2"--}}
+                                           {{--value="Nam Vương Mãnh Lực phổ thông" data-attr="pt">--}}
+                                    {{--<label class="form-check-label" for="inputmedical2">--}}
+                                        {{--Nam Vương Mãnh Lực phổ thông--}}
+                                    {{--</label>--}}
+                                {{--</div>--}}
+                            {{--</div>--}}
                         </div>
                         <button type="submit" class="btn btn-primary">Đặt mua ngay</button>
                         <p>

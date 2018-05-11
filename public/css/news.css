@@ -571,3 +571,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 .khungdetail .wp980 {
     width: auto;
 }
+
+.short-desc {
+    font-weight: bold;
+}

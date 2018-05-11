@@ -67,13 +67,13 @@
                                     <div class="w640right">
                                         <div class="mxhsingle2">
                                             <i class="icontronfb"
-                                               onclick="fbClient.shareClick('tai-san-cua-jeff-bezos-tang-12-ty-usd-sau-1-dem-nho-nhung-dam-may-20180427084002292.html')"></i>
+                                               onclick=""></i>
                                             <i class="icontronsendfb"
-                                               onclick="fbClient.sendClick('tai-san-cua-jeff-bezos-tang-12-ty-usd-sau-1-dem-nho-nhung-dam-may-20180427084002292.html');"></i>
+                                               onclick=""></i>
                                         </div>
 
                                         {{--short desc--}}
-                                        {!! $post->short_desc !!}
+                                        <div class="short-desc">{!! $post->short_desc !!}</div>
 
                                         <div data-check-position="body_start"></div>
 
