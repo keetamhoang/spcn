@@ -5,3 +5,12 @@
 .page-title {
     margin-top: 0px !important;
 }
+
+#intro .sanpham {
+    width: 447px;
+    margin: -51px auto 0;
+}
+
+#intro .content{
+    padding-top: 30px;
+}
