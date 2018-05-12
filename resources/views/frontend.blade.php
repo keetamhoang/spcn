@@ -16,33 +16,33 @@
     <link rel="stylesheet" type="text/css" href="/frontend/css_/slick-theme.css">
     <link rel="stylesheet" type="text/css" href="/frontend/css_/animate.css">
 
-    <title>Nam Vương Mãnh Lực - Hỗ trợ điều trị yếu sinh lý, xuất tinh sớm</title>
+    <title>Nam Vương Mãnh Lực - Nâng Tầm Sung Mãn</title>
 
     <!-- This site is optimized with the Yoast SEO plugin v7.1 - https://yoast.com/wordpress/plugins/seo/ -->
     <meta name="description"
-          content="Sản phẩm Nam Vương Mãnh Lực kết tinh từ những thảo dược quý hiếm: Ba kích, Tỏa dương, Dâm dương hoắc, Sâm cau, Nhục thung dung... Có tác dụng phòng và đẩy lùi hiệu quả chứng Yếu sinh lý, Xuất tinh sớm, Rối loạn cương dương, hỗ trợ bổ thận tráng dương, mạnh gân cốt, tăng cường Sinh lý nam.">
-    <link rel="canonical" href="https://www.manhluctruongxuan.com/">
+          content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
+    <link rel="canonical" href="http://namvuongmanhluc.com/">
     <meta property="og:locale" content="vi_VN">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Nam Vương Mãnh Lực - Hỗ trợ điều trị yếu sinh lý, xuất tinh sớm">
+    <meta property="og:title" content="Nam Vương Mãnh Lực - Nâng Tầm Sung Mãn">
     <meta property="og:description"
-          content="Sản phẩm Nam Vương Mãnh Lực kết tinh từ những thảo dược quý hiếm: Ba kích, Tỏa dương, Dâm dương hoắc, Sâm cau, Nhục thung dung... Có tác dụng phòng và đẩy lùi hiệu quả chứng Yếu sinh lý, Xuất tinh sớm, Rối loạn cương dương, hỗ trợ bổ thận tráng dương, mạnh gân cốt, tăng cường Sinh lý nam.">
-    <meta property="og:url" content="https://www.manhluctruongxuan.com/">
+          content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
+    <meta property="og:url" content="http://www.namvuongmanhluc.com/">
     <meta property="og:site_name" content="Nam Vương Mãnh Lực">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description"
-          content="Sản phẩm Nam Vương Mãnh Lực kết tinh từ những thảo dược quý hiếm: Ba kích, Tỏa dương, Dâm dương hoắc, Sâm cau, Nhục thung dung... Có tác dụng phòng và đẩy lùi hiệu quả chứng Yếu sinh lý, Xuất tinh sớm, Rối loạn cương dương, hỗ trợ bổ thận tráng dương, mạnh gân cốt, tăng cường Sinh lý nam.">
-    <meta name="twitter:title" content="Nam Vương Mãnh Lực - Hỗ trợ điều trị yếu sinh lý, xuất tinh sớm">
+          content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
+    <meta name="twitter:title" content="Nam Vương Mãnh Lực - Nâng Tầm Sung Mãn">
     <script type="text/javascript" async="" src="/frontend/js_/analytics.js"></script>
     <script id="facebook-jssdk" src="/frontend/js_/sdk.js"></script>
 
     <link rel="dns-prefetch" href="https://s.w.org/">
     <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Nam Vương Mãnh Lực »"
-          href="https://www.manhluctruongxuan.com/feed/">
+          href="http://namvuongmanhluc.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Nam Vương Mãnh Lực »"
-          href="https://www.manhluctruongxuan.com/comments/feed/">
+          href="http://namvuongmanhluc.com/comments/feed/">
     <link rel="alternate" type="application/rss+xml" title="Nam Vương Mãnh Lực » Trang chủ Dòng phản hồi"
-          href="https://www.manhluctruongxuan.com/trang-chu/feed/">
+          href="http://namvuongmanhluc.com/trang-chu/feed/">
     <script src="/frontend/js_/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
     <style type="text/css">
         img.wp-smiley,
@@ -59,6 +59,7 @@
         }
     </style>
     <link rel="stylesheet" id="mltx-style-css" href="/frontend/css_/style.css" type="text/css" media="all">
+    <link rel="stylesheet" id="mltx-style-css" href="/css/new.css" type="text/css" media="all">
 
     <style type="text/css">.recentcomments a {
             display: inline !important;
@@ -176,7 +177,7 @@
 <div id="cta-right" data-toggle="modal" data-target="#RegisterModal" class="displayContent">
     <div class="inner">
         <h4>Đăng ký tư vấn</h4>
-        <p>Hotline 0983 684 155</p>
+        <p>Hotline 01669 943 882</p>
     </div>
 
 </div>
@@ -187,7 +188,7 @@
     <div class="modal-dialog " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <img src="/frontend/image/logo-manh-luc-truong-xuan.png"
+                <img src="/frontend/image/logo-nam-vuong-manh-luc.png"
                      alt="">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
@@ -561,7 +562,7 @@ charset = "utf-8" ></script>
 </a>
 
 <div id="livechat" class="" style="z-index: 3;">
-    <div class="live-header">Chat cùng chuyên gia (zalo 0983 684 155) <span class="angle-down"></span></div>
+    <div class="live-header">Chat cùng chuyên gia (zalo 01669 943 882) <span class="angle-down"></span></div>
     <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/Nam-V%C6%B0%C6%A1ng-M%C3%A3nh-L%E1%BB%B1c-474590932959964/"
          data-tabs="messages" data-width="300" data-height="320" data-small-header="true"
          data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" fb-xfbml-state="rendered"

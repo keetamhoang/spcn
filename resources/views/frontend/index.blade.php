@@ -50,7 +50,7 @@
                             <p class="text-content" data-animation="fadeInUp" data-delay="0.5s"
                                style="animation-delay: 0.5s;">Cảm nhận rõ rệt <br>sự thay đổi chất lượng <br> “cuộc
                                 yêu” <br>chỉ sau 7 ngày sử dụng</p>
-                            <img src="/frontend/image/logo.png" alt="Nam Vương Mãnh Lực" class="img-logo"
+                            <img src="/frontend/image/logo-nam-vuong-manh-luc.png" alt="Nam Vương Mãnh Lực" class="img-logo"
                                  data-animation="fadeInLeft" data-delay="0.5s" style="animation-delay: 0.5s;">
                         </div>
                     </div>
@@ -67,14 +67,14 @@
             <div class="container-fluid">
                 <div class="row hero-content">
 
-                    <div class="col-sm-9 text-center content-left order-sm-2 order-md-2">
+                    <div class="col-sm-7 text-center content-left order-sm-2 order-md-2">
                         <img src="/frontend/image/logo2.png" alt="Nam Vương Mãnh Lực" data-animation="fadeInDown"
                              data-delay="0.3s" class="img-second" style="animation-delay: 0.3s;">
                         <img src="/frontend/image/slogan.png" alt=" Nâng tầm sung mãn" data-animation="fadeInUp"
                              data-delay="0.5s" class="img-third animated fadeInUp" style="animation-delay: 0.5s;">
                     </div>
-                    <div class="col-sm-3 text-center order-sm-1 order-md-1">
-                        <img class="img-first" src="/frontend/image/sp.png" alt="Nam Vương Mãnh Lực"
+                    <div class="col-sm-5 text-center order-sm-1 order-md-1">
+                        <img class="img-first" src="/frontend/image/sp2.png" alt="Nam Vương Mãnh Lực"
                              data-animation="fadeInLeft" data-delay="0.2s" style="animation-delay: 0.2s;">
                     </div>
                 </div>
@@ -236,7 +236,7 @@
             <div class="row">
                 <div class="col-sm-7 col-6 content">
                     <h2 class="text-center">Làm chủ cuộc yêu với<span>Nam Vương Mãnh Lực</span></h2>
-                    <img src="/frontend/image/sanpham2.png" class="sanpham">
+                    <img src="/frontend/image/sp2.png" class="sanpham">
                 </div>
                 <div class="col-sm-5 col-6">
                     <img src="/frontend/image/man.png" alt="">
@@ -371,7 +371,7 @@
                 </div>
                 <div class="col-md-4 second order-sm-1 order-md-2 order-1">
                     <div class="content-center">
-                        <img src="/frontend/image/logo-manh-luc-truong-xuan.png" alt="">
+                        <img src="/frontend/image/logo-nam-vuong-manh-luc.png" alt="">
                     </div>
                 </div>
                 <div class="col-md-4  third order-sm-3 order-md-3 order-3">
@@ -395,7 +395,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-5 text-center">
-                    <img src="/frontend/image/sanpham3.png" alt="">
+                    <img src="/frontend/image/sp2.png" alt="">
                     <!-- <img src="images/logo-manh-luc-truong-xuan-red.png" alt=""> -->
                 </div>
                 <div class="col-sm-7">
@@ -560,7 +560,7 @@
                             <p class="name"><strong>Anh Nguyễn Văn Thịnh (45 tuổi, Hà Nội)</strong></p>
 
                         </div>
-                        <img src="/frontend/image/logo-manh-luc-truong-xuan.png" class="logo">
+                        <img src="/frontend/image/logo-nam-vuong-manh-luc.png" class="logo">
 
                     </div>
                     <a class="carousel-control-prev" href="#carouselCustomer"
@@ -581,7 +581,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-5">
-                    <img src="/frontend/image/sanpham2.png" alt="" class="img-plus">
+                    <img src="/frontend/image/sp2.png" alt="" class="img-plus">
                     <img src="/frontend/image/manh-luc-truong-xuan-pho-thong.png" alt="" class="img-pt">
                 </div>
                 <div class="col-sm-7">
