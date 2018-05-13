@@ -36,7 +36,7 @@
             </div>
         </div>
         <div class="hero-slide slick-slide"
-             style="background: url(&quot;https://www.manhluctruongxuan.com/wp-content/themes/mltx/images/slide/02/bg.png&quot;); width: 1903px; position: relative; left: -1903px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms linear;"
+             style="background: url('/frontend/image/bg.png'); width: 1903px; position: relative; left: -1903px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms linear;"
              id="slide-02" data-slick-index="1" aria-hidden="true" tabindex="-1" role="option"
              aria-describedby="slick-slide01">
             <div class="container-fluid">
@@ -61,7 +61,7 @@
             </div>
         </div>
         <div class="hero-slide slick-slide "
-             style="background: url(&quot;https://www.manhluctruongxuan.com/wp-content/themes/mltx/images/slide/03/bg.png&quot;); width: 1903px; position: relative; left: -3806px; top: 0px; z-index: 999; opacity: 1;"
+             style="background: url('/frontend/image/bg1.png'); width: 1903px; position: relative; left: -3806px; top: 0px; z-index: 999; opacity: 1;"
              id="slide-03" data-slick-index="2" aria-hidden="false" tabindex="-1" role="option"
              aria-describedby="slick-slide02">
             <div class="container-fluid">
@@ -140,8 +140,8 @@
                     <p class="title">Bạn cần tư vấn?</p>
                     <p>Hãy gọi cho chuyên gia của chúng tôi theo số điện thoại sau</p>
                     <p class="text-center">
-                        <a href="tel:0983 684 155" class="btn btn-primary">
-                            <span class="icon"></span> 0983 684 155</a>
+                        <a href="tel:01669 943 882" class="btn btn-primary">
+                            <span class="icon"></span> 01669 943 882</a>
                     </p>
                 </div>
             </div>
@@ -295,31 +295,31 @@
             </div>
             <div class="row ">
                 <div class="col">
-                    <a href="https://www.manhluctruongxuan.com/#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
+                    <a href="#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
                         <img src="/frontend/image/loc-nhung.png" alt="">
                         <p>Lộc Nhung</p>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="https://www.manhluctruongxuan.com/#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
+                    <a href="#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
                         <img src="/frontend/image/nhan-sam.png" alt="">
                         <p>Nhân Sâm</p>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="https://www.manhluctruongxuan.com/#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
+                    <a href="#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
                         <img src="/frontend/image/dam-duong-hoac.png" alt="">
                         <p>Dâm dương hoắc</p>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="https://www.manhluctruongxuan.com/#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
+                    <a href="#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
                         <img src="/frontend/image/nhuc-thung-dung.png" alt="">
                         <p>Nhục thung dung</p>
                     </a>
                 </div>
                 <div class="col">
-                    <a href="https://www.manhluctruongxuan.com/#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
+                    <a href="#" data-toggle="modal" data-target=".modal-lg-thanh-phan">
                         <img src="/frontend/image/ba-kich.png" alt="">
                         <p>Ba kích</p>
                     </a>
@@ -415,7 +415,7 @@
                     <p class="strong">Đừng ngần ngại, vì chúng tôi cam kết bảo mật tuyệt đối thông tin khách hàng. Đặt mua
                         ngay để được giảm giá 10%</p>
                     <p class="">
-                        <a href="https://www.manhluctruongxuan.com/#" class="btn" title="">Đặt mua ngay</a>
+                        <a href="#" class="btn" title="">Đặt mua ngay</a>
                     </p>
                 </div>
             </div>
@@ -641,49 +641,49 @@
             <h4 class="text-center">Báo chí nói về chúng tôi</h4>
             <div class="row justify-content-center">
                 <div class=" col-sm-3">
-                    <a href="http://vietnamnet.vn/vn/suc-khoe/manh-luc-truong-xuan-bi-an-phong-the-cua-nguoi-thai-den-425662.html"
+                    <a href="javascript:;"
                        target="_blank" title="">
                         <img src="/frontend/image/bao-vietnamnet.png" alt="">
                     </a>
                     <h3 class="post-title">
-                        <a href="http://vietnamnet.vn/vn/suc-khoe/manh-luc-truong-xuan-bi-an-phong-the-cua-nguoi-thai-den-425662.html"
+                        <a href="javascript:;"
                            title="" target="_blank">Nam Vương Mãnh Lực - Bí ẩn phòng the của người Thái đen</a>
                     </h3>
                 </div>
                 <div class=" col-sm-3">
-                    <a href="http://www.24h.com.vn/tin-tuc-suc-khoe/tim-ve-coi-nguon-bi-truyen-chua-yeu-sinh-ly-mien-son-cuoc-cua-nguoi-thai-den-c683a936409.html"
+                    <a href="javascript:;"
                        target="_blank">
                         <img src="/frontend/image/bao-24h.png" alt="">
                     </a>
                     <h3 class="post-title">
-                        <a href="http://www.24h.com.vn/tin-tuc-suc-khoe/tim-ve-coi-nguon-bi-truyen-chua-yeu-sinh-ly-mien-son-cuoc-cua-nguoi-thai-den-c683a936409.html"
+                        <a href="javascript:;"
                            title="" target="_blank">Tìm về “cội nguồn” bí truyền chữa yếu sinh lý miền sơn cước của người
                             Thái đen</a>
                     </h3>
                 </div>
                 <div class="col-sm-3">
-                    <a href="https://khoe360.tienphong.vn/gia-dinh-suc-khoe/manh-luc-truong-xuan-cuu-canh-cho-dan-ong-suy-giam-sinh-ly-1245004.tpo"
+                    <a href="javascript:;"
                        title="" target="_blank">
                         <img src="/frontend/image/bao-tien-phong.png" alt="">
                     </a>
                     <h3 class="post-title"><a
-                                href="https://khoe360.tienphong.vn/gia-dinh-suc-khoe/manh-luc-truong-xuan-cuu-canh-cho-dan-ong-suy-giam-sinh-ly-1245004.tpo"
+                                href="javascript:;"
                                 title="" target="_blank">
-                        </a><a href="https://khoe360.tienphong.vn/gia-dinh-suc-khoe/manh-luc-truong-xuan-cuu-canh-cho-dan-ong-suy-giam-sinh-ly-1245004.tpo"
+                        </a><a href="javascript:;"
                                title="" target="_blank"> Nam Vương Mãnh Lực - Cứu cánh cho đàn ông suy giảm sinh lý</a>
                     </h3>
 
 
                 </div>
                 <div class="col-sm-3">
-                    <a href="http://www.doisongphapluat.com/can-biet/manh-luc-truong-xuan-hanh-trinh-nghien-cuu-va-phat-trien-giai-phap-cai-thien-chuc-nang-sinh-ly-phai-manh-a224704.html"
+                    <a href="javascript:;"
                        target="_blank">
                         <img src="/frontend/image/bao-doi-song-phap-luat.png" alt="">
                     </a>
                     <h3 class="post-title"><a
-                                href="http://www.doisongphapluat.com/can-biet/manh-luc-truong-xuan-hanh-trinh-nghien-cuu-va-phat-trien-giai-phap-cai-thien-chuc-nang-sinh-ly-phai-manh-a224704.html"
+                                href="javascript:;"
                                 target="_blank">
-                        </a><a href="http://www.doisongphapluat.com/can-biet/manh-luc-truong-xuan-hanh-trinh-nghien-cuu-va-phat-trien-giai-phap-cai-thien-chuc-nang-sinh-ly-phai-manh-a224704.html"
+                        </a><a href="javascript:;"
                                target="_blank">Nam Vương Mãnh Lực - Hành trình nghiên cứu và phát triển giải pháp cải
                             thiện
                             chức năng sinh lý phái mạnh</a>

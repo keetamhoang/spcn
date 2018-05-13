@@ -11,29 +11,29 @@
         <div class="collapse navbar-collapse" id="navbarsExample07">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="{{ url('#chart') }}">Vấn đề của bạn
+                    <a class="nav-link" href="{{ url('http://namvuongmanhluc.com/#chart') }}">Vấn đề của bạn
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#intro') }}">Sản phẩm</a>
+                    <a class="nav-link" href="{{ url('http://namvuongmanhluc.com/#intro') }}">Sản phẩm</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#uudiem') }}">Ưu điểm</a>
+                    <a class="nav-link" href="{{ url('http://namvuongmanhluc.com/#uudiem') }}">Ưu điểm</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#quyenloi') }}">Quyền lợi khách hàng</a>
+                    <a class="nav-link" href="{{ url('http://namvuongmanhluc.com/#quyenloi') }}">Quyền lợi khách hàng</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#chuyengia') }}">Đánh giá sản phẩm</a>
+                    <a class="nav-link" href="{{ url('http://namvuongmanhluc.com/#chuyengia') }}">Đánh giá sản phẩm</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#loikhuyen') }}">Lời khuyên</a>
+                    <a class="nav-link" href="{{ url('http://namvuongmanhluc.com/#loikhuyen') }}">Lời khuyên</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('#page-footer') }}">Liên hệ</a>
+                    <a class="nav-link" href="{{ url('http://namvuongmanhluc.com/#page-footer') }}">Liên hệ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{ url('/kien-thuc-y-hoc-va-cac-bai-thuoc-huu-dung') }}">Bài viết</a>
+                    <a class="nav-link" href="{{ url('/kien-thuc-y-hoc-va-cac-bai-thuoc-huu-dung') }}">Kiến thức y học</a>
                 </li>
             </ul>
 

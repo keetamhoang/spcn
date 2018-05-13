@@ -14,3 +14,46 @@
 #intro .content{
     padding-top: 30px;
 }
+
+@media (max-width: 768px) {
+    #livechat {
+        display: none;
+    }
+}
+
+#chat-facebook-mobile {
+    width: 300px;
+    height: auto;
+}
+
+.chungtoi {
+    padding: 15px 0;
+    margin: 0;
+    text-align: center;
+    background: #fae89c;
+    border-top: 1px solid #ced4da;
+}
+
+@media(max-width:767px) {
+    #chat-facebook-mobile img {
+        border-radius: 0;
+    }
+
+    #chat-facebook-mobile {
+        bottom: 0%;
+        right: -70px;
+    }
+
+    #show-modal-livechat:before,#chat-facebook-mobile::before{
+        content: '';
+        width: 0px;
+        height: 0px;
+    }
+
+    #btn-top {
+        bottom: 120px;
+        width: 40px;
+        height: 40px;
+        background-size: 40px;
+    }
+}

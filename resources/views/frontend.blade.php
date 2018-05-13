@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <html lang="vi" prefix="og: http://ogp.me/ns#">
 <head>
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '191351954844707');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=191351954844707&ev=PageView&noscript=1"
+        /></noscript>
+    <!-- End Facebook Pixel Code -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Required meta tags -->
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link href="#" rel="shortcut icon"
+    <link href="/favicon.ico" rel="shortcut icon"
           type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -28,6 +45,7 @@
     <meta property="og:description"
           content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
     <meta property="og:url" content="http://www.namvuongmanhluc.com/">
+    <meta property="og:image" content="http://namvuongmanhluc.com/banner.jpg"/>
     <meta property="og:site_name" content="Nam Vương Mãnh Lực">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description"
@@ -188,8 +206,9 @@
     <div class="modal-dialog " role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <img src="/frontend/image/logo-nam-vuong-manh-luc.png"
-                     alt="">
+                {{--<img src="/frontend/image/logo-nam-vuong-manh-luc.png"--}}
+                     {{--alt="">--}}
+                <h3 style="color: #fbea9d;">Gửi yêu cầu tư vấn</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
@@ -205,12 +224,12 @@
                         <input name="phone" required="required" type="text" class="form-control"
                                placeholder="Số điện thoại">
                     </div>
-                    <div class="form-group">
-                        <input type="email" name="email" class="form-control" placeholder="Email">
-                    </div>
+                    {{--<div class="form-group">--}}
+                        {{--<input type="email" name="email" class="form-control" placeholder="Email">--}}
+                    {{--</div>--}}
                     <div class="form-group">
                         <textarea name="content" class="form-control" placeholder="Nội dung cần tư vấn"
-                                  rows="5"></textarea>
+                                  rows="3"></textarea>
                     </div>
                     <p class="text-center">
                         <button type="submit" class="btn btn-second">Hoàn thành</button>
@@ -218,7 +237,7 @@
                 </form>
                 <div class="result-form"></div>
             </div>
-
+            <p class="chungtoi">Chúng tôi sẽ gọi cho bạn!</p>
         </div>
     </div>
 </div>
@@ -556,17 +575,17 @@ charset = "utf-8" ></script>
 <a id="show-modal-livechat" href="#" title="" class="d-none d-md-block d-sm-block">
     <img src="/frontend/image/icon-messenger.png" alt="">
 </a>
-<a id="chat-facebook-mobile" href="https://m.me/Nam-V%C6%B0%C6%A1ng-M%C3%A3nh-L%E1%BB%B1c-474590932959964" target="_blank" title=""
+<a id="chat-facebook-mobile" href="https://m.me/namvuongmanhluc" target="_blank" title=""
    class="d-block d-md-none d-sm-none">
-    <img src="/frontend/image/icon-messenger.png" alt="">
+    <img src="/frontend/image/chat.png" alt="">
 </a>
 
 <div id="livechat" class="" style="z-index: 3;">
     <div class="live-header">Chat cùng chuyên gia (zalo 01669 943 882) <span class="angle-down"></span></div>
-    <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/Nam-V%C6%B0%C6%A1ng-M%C3%A3nh-L%E1%BB%B1c-474590932959964/"
+    <div class="fb-page fb_iframe_widget" data-href="https://www.facebook.com/namvuongmanhluc"
          data-tabs="messages" data-width="300" data-height="320" data-small-header="true"
          data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false" fb-xfbml-state="rendered"
-         fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=1049155198431013&amp;container_width=300&amp;height=320&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Ftrungtamnghiencuuvaungdungthuocdantoc&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=messages&amp;width=300">
+         fb-iframe-plugin-query="adapt_container_width=true&amp;app_id=1049155198431013&amp;container_width=300&amp;height=320&amp;hide_cover=false&amp;href=https%3A%2F%2Fwww.facebook.com%2Fnamvuongmanhluc&amp;locale=vi_VN&amp;sdk=joey&amp;show_facepile=false&amp;small_header=true&amp;tabs=messages&amp;width=300">
         <span style="vertical-align: bottom; width: 300px; height: 320px;">
            </span></div>
 </div>
