@@ -2,6 +2,7 @@
 
 @section('style')
     <link rel="stylesheet" id="mltx-style-css" href="/css/news.css" type="text/css" media="all">
+    <link rel="stylesheet" id="mltx-style-css" href="/frontend/css_/news.css" type="text/css" media="all">
 @endsection
 
 @section('content')
@@ -12,27 +13,28 @@
 
                 <div data-check-position="cb_home-position_focus"></div>
                 <div style="overflow: hidden;">
-                    <div class="noibat" data-marked-zoneid="cb_home_focus">
+                    <div class="noibat col col-lg-9" data-marked-zoneid="cb_home_focus">
                         @if (count($posts) > 0)
                         <ul>
                             <li class="noibat2">
                                 <h2>
                                     <a href="{{ $posts[0]->link }}"
-                                       title="{{ $posts[0]->name }}">{{ $posts[0]->name }}</a></h2><a
+                                       title="{{ $posts[0]->name }}">{{ $posts[0]->name }}</a></h2>
+                                <div class="infohl col col-lg-6">
+                                    {!! $posts[0]->short_desc !!}
+                                </div>
+                                <a class="col col-lg-6 infoa1"
                                         href="{{ $posts[0]->link }}"
                                         title="{{ $posts[0]->name }}"><img
                                             src="{{ $posts[0]->image }}"
                                             alt="{{ $posts[0]->name }}"
                                             width="425" height="265">
                                 </a>
-                                <div class="infohl">
-                                    {!! $posts[0]->short_desc !!}
-                                </div>
                             </li>
 
                             @for($i=1;$i<4;$i++)
                                 @if (!empty($posts[$i]))
-                                    <li class="normal {{ $i == 3 ? 'last' : '' }}"><a
+                                    <li class="normal col col-lg-4 {{ $i == 3 ? 'last' : '' }}"><a
                                                 href="{{ $posts[$i]->link }}"
                                                 title="{{ $posts[$i]->name }}"><img
                                                     src="{{ $posts[$i]->image }}"
@@ -48,7 +50,7 @@
                         </ul>
                         @endif
                     </div>
-                    <div class="noibat-right">
+                    <div class="noibat-right col col-lg-3">
                         <div class="banner">
                             <img src="/assets/images/banner.png">
                         </div>
@@ -80,7 +82,9 @@
                                            class="show-popup visit-popup">{{ $posts[$j]->name }}</a>
                                     </h3>
                                     <p class="cate">{{ $posts[$j]->category->name }} <span>-</span> <span class="time" title="{{ \Carbon\Carbon::parse($posts[$j]->created_at)->format('d/m/Y H:i') }}">{{ \Carbon\Carbon::parse($posts[$j]->created_at)->format('d/m/Y H:i') }}</span>
-                                    </p></li>
+                                    </p>
+                                    <div class="desc">{!! $posts[$j]->short_desc !!}</div>
+                                </li>
                             @endfor
                         @endif
 

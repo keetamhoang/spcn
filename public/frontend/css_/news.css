@@ -35,18 +35,20 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     margin-top: 7px;
 }
 
-.bgadmtoptotal {
-    padding-bottom: 13px;
-}
-
 .noibat {
-    /*width: 710px;*/
-    display: inline-block;
-    float: left;
+    /*width: 75%;*/
+    display: block;
+    /*float: left;*/
+    padding: 15px;
+    padding-top: 0;
 }
 
 .noibat-right {
-    float: right;
+    /*float: left;*/
+}
+
+.infoa1 {
+    display: inline-block;
 }
 
 .noibat .noibat2 {
@@ -77,16 +79,16 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 .noibat .noibat2 img {
-    width: 390px;
-    height: 244px;
+    max-width: 100%;
+    height: auto;
 }
 
 .noibat .noibat2 .infohl {
-    /*float: left;*/
+    float: left;
     /*margin-right: 24px;*/
     /*margin-left: 24px;*/
-    /*width: 272px;*/
-    /*margin-top: 20px;*/
+    /*width: 50%;*/
+    margin-top: 20px;
 }
 
 .noibat .noibat2 p {
@@ -115,14 +117,21 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 .noibat .normal {
     /*width: 223px;*/
-    float: left;
+    /*float: left;*/
     /*margin-right: 20px;*/
-    /*margin-top: 20px;*/
+    margin-top: 20px;
+}
+
+.normal-noibat {
+    width: 100%;
+    display: inline-block;
+    height: 170px;
+    overflow: hidden;
 }
 
 .noibat .normal img {
-    width: 223px;
-    height: 140px;
+    width: 100%;
+    height: auto;
 }
 
 .noibat .normal h2 a {
@@ -134,6 +143,10 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     line-height: 21px;
     margin-bottom: 24px;
     font-weight: normal;
+}
+
+.listtimeline ul li p.desc {
+    font-family: 'Open Sans';
 }
 
 .noibat .normal.last {
@@ -203,17 +216,17 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 .khungdetail {
-    width: 1098px;
+    width: 100%;
     border: 1px solid #dbe0e8;
     margin: 0 auto;
-    padding-top: 29px;
+    padding: 25px 10px 10px;
     border-radius: 3px;
     background: #fff;
     overflow: hidden;
 }
 
 .sprite, #logo a, .IMSNoChangeStyle a, .link-content-footer a, .gachtimkiemv2, .iconmenuhome, .iconguitinnhanhv2, #imgSearch, #logo a, .videohome .block-video .title .left .sp_icon, .listtimeline .more, .footer .info .right .logovc, .noibat .noibat2 .tlqtophl .icontlq, .cafebiz-maildetail, .iconsharefbv3, .icontronfb, .icontronsendfb, .icontronmail, .tags p.title span.icon, .tags span.title span.icon, .moicapnhat #SlideTinNoiBatDetail .swiper-button-next, .moicapnhat #SlideTinNoiBatDetail .swiper-button-prev, .list-tags .more, .list-newsbydate .more, .iconlienhefirst, .iconlienhelast, .totallienhetop .border .iconrow, .totallienhetop .border .item:before, .loaddanhsachtimkiem .more {
-    background: url(../web_images/sprice_biz_v38.png) no-repeat;
+    background: url(https://taichinhsmart.vn/new/assets/web_images/sprice_biz_v38.png) no-repeat;
 }
 
 .wp980 {
@@ -229,14 +242,15 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
     /*width: 648px;*/
     border: none;
     margin-top: 20px;
-    float: left;
+    /*float: left;*/
     padding-bottom: 15px;
 }
 
 .khungdetail .newscontent {
-    /*width: 710px;*/
+    /*width: auto;*/
     /*margin-left: 30px;*/
-    /*margin-top: 0;*/
+    margin-top: 0;
+    padding: 0 0 0 15px;
 }
 
 .khungdetail .newscontent .detail-single2 {
@@ -300,7 +314,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 .newscontent .content a {
-    color: blue;
+    color: #f15922;
 }
 
 .timeandcatdetail .cat a {
@@ -309,10 +323,11 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 
 #fbrecommend, .share_bt {
     padding: 5px 0;
-    border-bottom: 1px solid #e4e4e4;
+    /*border-bottom: 1px solid #e4e4e4;*/
     border-top: 1px solid #e4e4e4;
     width: 100%;
     float: left;
+    margin-top: 10px;
 }
 
 .sharefbdetail {
@@ -370,7 +385,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 .khungdetail .newscontent .detail-single2 .w640right {
-    width: 640px;
+    width: 100%;
     position: relative;
     float: right;
 }
@@ -533,15 +548,15 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 
 .tinmoidetail {
-    /*border-top: 2px solid #61667b;*/
-    /*margin-top: 22px;*/
-    /*margin-bottom: 15px;*/
-    /*position: relative;*/
-    /*z-index: 10;*/
-    /*background: #fff;*/
+    border-top: 2px solid #61667b;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    position: relative;
+    z-index: 10;
+    background: #fff;
     /*width: 1038px;*/
-    /*float: left;*/
-    /*margin-left: 30px;*/
+    float: left;
+    margin-left: 30px;
 }
 
 .tinmoidetail .docthemdetail.tab {
@@ -570,8 +585,127 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 
 .khungdetail .wp980 {
     width: auto;
+    display: block;
 }
 
 .short-desc {
     font-weight: bold;
+}
+
+.noibat-right .banner img {
+    max-width: 100%;
+}
+
+.btn3 {
+    text-align: center;
+    padding: 18px 60px;
+    box-shadow: 0 4px 5px #ccc;
+    text-shadow: 2px 1px 1px #908c8c;
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    background: #f15922;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.detail-content img {
+    max-width: 100%;
+}
+
+.noibat-right .banner {
+    text-align: center;
+}
+
+.interviewer {
+    background-color: rgb(241, 243, 245);
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.interviewer::before {
+    content: "";
+    background: rgba(0, 0, 0, 0) url(../images/sidebar_face.png) no-repeat scroll 0% 0% / 100% auto;
+    float: left;
+    padding: 47px;
+    margin-right: 10px;
+}
+
+.interviewer2 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.interviewer2::before {
+    content: "";
+    background: rgba(0, 0, 0, 0) url(../images/sidebar_face2.png) no-repeat scroll 0% 0% / 100% auto;
+    float: left;
+    padding: 47px;
+    margin-right: 10px;
+}
+
+.name::before {
+    content: "PV An An: ";
+    color: rgb(7, 29, 197);
+    font-weight: bold;
+}
+
+.int::before {
+    content: "Diễn Viên Việt Anh: ";
+    color: rgb(7, 29, 197);
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .bgadmtoptotal {
+        /*padding: 34px;*/
+    }
+
+    .infoa1 {
+        padding: 0px;
+    }
+
+    .normal-noibat {
+        height: 142px;
+    }
+
+    .noibat .noibat2 .infohl {
+        margin-bottom: 10px;
+    }
+
+    .noibat-right {
+        padding: 0;
+    }
+
+    .noibat-right img {
+        width: 100%;
+    }
+
+    .listtimeline ul li img {
+        margin: 0;
+        width: 100%;
+        height: auto;
+        margin-bottom: 7px;
+    }
+
+    .newscontent .content h1 {
+        font-size: 23px;
+        line-height: 29px;
+    }
+
+    .tinmoidetail {
+        margin-left: 0;
+    }
+
+    .khungdetail .newscontent {
+        padding: 0;
+    }
+
+    .btn3 {
+        padding: 13px 22px
+    }
 }

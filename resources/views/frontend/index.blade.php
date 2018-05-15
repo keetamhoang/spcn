@@ -497,9 +497,6 @@
                                     <input name="phone" type="text" class="form-control" placeholder="Số điện thoại"
                                            required="required">
                                 </div>
-                                <div class="col">
-                                    <input name="email" type="text" class="form-control" placeholder="Email">
-                                </div>
                             </div>
                             <div class="form-row">
                                 <div class="col">
