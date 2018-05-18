@@ -252,22 +252,12 @@
                 <div class="col-md-7">
                     <h2>Nguồn gốc của <span>Nam Vương Mãnh Lực</span></h2>
                     <div class="content text-justify">
-                        <p>Sản phẩm Nam Vương Mãnh Lực của Công ty CP Nghiên cứu và Ứng dụng Thuốc dân tộc là sự kết tinh
-                            từ những dược liệu quý hiếm, tinh hoa của đại ngàn Tây Bắc, được các bậc tiền nhân truyền dạy
-                            “bí kíp” bào chế, cùng những kinh nghiệm được tích lũy qua nhiều thế hệ của người Thái Đen.
-                            Trong cổ thư của dân tộc này từng ghi chép lại việc Vua Mèo Vương Chí Sình vì mê mẩn thứ “thần
-                            dược sung sướng” của người Thái Đen, đã lặn lội trèo đèo lội suối băng rừng hàng trăm cây số để
-                            xin cho kỳ được công thức bào chế bí kíp duy trì tuổi thanh xuân sung mãn.</p>
-                        <p>
-                            Trên nền tảng này, <strong>Trung tâm Nghiên cứu và Ứng dụng Thuốc dân tộc</strong> đã phát triển
-                            và hoàn thiện thành sản phẩm <strong>Nam Vương Mãnh Lực</strong> - Giải pháp vàng cho đấng mày
-                            râu thời hiện đại. Sản phẩm đã được Bộ Y tế cấp giấy phép đủ tiêu chuẩn lưu hành trên toàn quốc
-                            theo quyết định <strong>số 44367/2017/ATTP-XNCB.</strong>
-
+                        <p> “Nam Vương Mãnh Lực - Sản phẩm của Đông Dược Cổ Truyền và Thuốc Dân Tộc Phúc Linh - là sự kết tinh từ những dược liệu quý hiếm, tinh hoa  của các dân tộc ở vùng cực Bắc Tây Nguyên, được các bậc tiền nhân truyền dạy “bí kíp” bào chế, cùng những kinh nghiệm được tích lũy qua nhiều thế hệ của người Gia Rai. Trong cổ thư của dân tộc này từng ghi chép lại việc Vua Mèo Vương Chí Sình vì mê mẩn thứ “thần dược sung sướng” của người Gia Rai, đã lặn lội trèo đèo lội suối băng rừng hàng trăm cây số để xin cho kỳ được công thức bào chế bí kíp duy trì tuổi thanh xuân sung mãn.</p>
+                        <p>Trên nền tảng này, Đông Dược Cổ Truyền và Thuốc Dân Tộc Phúc Linh đã phát triển và hoàn thiện thành sản phẩm Nam Vương Mãnh Lực  - Giải pháp vàng cho đấng mày râu thời hiện đại. Giúp khắc phục triệt để các trường hợp rối loạn cương dương, dương vật không đủ cương, xuất tinh sớm, giảm ham muốn tình dục...Tăng cường nồng độ hoocmon nội sinh nam giới giúp cải thiện sinh lý nam, tăng xúc cảm và hưng phấn tình dục, kéo dài thời gian quan hệ....”
                         </p>
 
                         <p><a target="_blank" class="readmore"
-                              href="http://www.tapchidongy.org/manh-luc-truong-xuan-bi-duoc-sung-suong-cua-nguoi-thai-den.html">Tìm
+                              href=": http://namvuongmanhluc.com/bai-viet/nam-vuong-manh-luc-bi-an-than-duoc-sung-suong-cua-nguoi-gia-rai-7">Tìm
                                 hiểu thêm</a></p>
                     </div>
 
