@@ -267,7 +267,7 @@
                         </p>
 
                         <p><a target="_blank" class="readmore"
-                              href="http://www.tapchidongy.org/manh-luc-truong-xuan-bi-duoc-sung-suong-cua-nguoi-thai-den.html">Tìm
+                              href="{{'http://www.tapchidongy.org/manh-luc-truong-xuan-bi-duoc-sung-suong-cua-nguoi-thai-den.html'}}">Tìm
                                 hiểu thêm</a></p>
                     </div>
 
