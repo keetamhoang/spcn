@@ -2,6 +2,7 @@
 
 @section('style')
     <link rel="stylesheet" id="mltx-style-css" href="/css/news.css" type="text/css" media="all">
+    <link rel="stylesheet" id="mltx-style-css" href="/frontend/css_/news.css" type="text/css" media="all">
 @endsection
 
 @section('content')
@@ -26,7 +27,7 @@
                 <div class="khungdetail totalcontentdetail">
 
                     <div class="wp980">
-                        <div class="newscontent adm-leftsection noibat">
+                        <div class="newscontent adm-leftsection noibat col col-lg-8">
 
                             <div class="detail-single2">
 
@@ -65,12 +66,12 @@
 
 
                                     <div class="w640right">
-                                        <div class="mxhsingle2">
-                                            <i class="icontronfb"
-                                               onclick=""></i>
-                                            <i class="icontronsendfb"
-                                               onclick=""></i>
-                                        </div>
+                                        {{--<div class="mxhsingle2">--}}
+                                            {{--<i class="icontronfb"--}}
+                                               {{--onclick=""></i>--}}
+                                            {{--<i class="icontronsendfb"--}}
+                                               {{--onclick=""></i>--}}
+                                        {{--</div>--}}
 
                                         {{--short desc--}}
                                         <div class="short-desc">{!! $post->short_desc !!}</div>
@@ -106,7 +107,7 @@
 
                             </div>
                         </div>
-                        <div class="noibat-right">
+                        <div class="noibat-right col col-lg-4">
                             <div class="banner">
                                 <img src="/assets/images/banner.png">
                             </div>
@@ -115,8 +116,6 @@
                         <!--end newscontent-->
                         <!--end contentright-->
                     </div>
-                    <div id="adm_sponsor_footer1" class="clearb"></div>
-                    <div id="adm_sticky_footer"></div>
 
                     <div class="tinmoidetail">
                         <div class="docthemdetail tab">Đọc thêm</div>
@@ -141,6 +140,7 @@
                                                        class="show-popup visit-popup">{{ $random->name }}</a></h3>
                                                 <p class="cate"><span class="time" title="{{ \Carbon\Carbon::parse($random->created_at)->format('d/m/Y H:i') }}">{{ \Carbon\Carbon::parse($random->created_at)->format('d/m/Y H:i') }}</span>
                                                 </p>
+                                                <div class="desc">{!! $random->short_desc !!}</div>
                                             </li>
                                         @endforeach
 
@@ -176,11 +176,6 @@
                                 <div id="admsection7"></div>
 
                                 <div id="admzone479828"></div>
-                                <script>
-                                    admicroAD.unit.push(function () {
-                                        admicroAD.show('admzone479828')
-                                    });
-                                </script>
                             </div>
                             <div class="clearb"></div>
                             <div id="adm_sponsor_footer2"></div>
