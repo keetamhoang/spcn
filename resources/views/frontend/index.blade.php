@@ -257,7 +257,7 @@
                         </p>
 
                         <p><a target="_blank" class="readmore"
-                              href="{{'http://www.tapchidongy.org/manh-luc-truong-xuan-bi-duoc-sung-suong-cua-nguoi-thai-den.html'}}">Tìm
+                              href="{{'http://namvuongmanhluc.com/bai-viet/nam-vuong-manh-luc-bi-an-than-duoc-sung-suong-cua-nguoi-gia-rai-7'}}">Tìm
                                 hiểu thêm</a></p>
                     </div>
 
@@ -322,16 +322,16 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-sm-8">
-                    <h2>Công dụng <span>Nam Vương Mãnh Lực</span></h2>
+                    <h2>Công dụng <span>Nam Vương Mãnh Lực Cho Nam Giới</span></h2>
                     <ul>
-                        <li> Hỗ trợ bổ thận, tráng dương, mạnh gân cốt, tăng cường chức năng thận.</li>
-                        <li>Hỗ trợ tăng cường sinh lý nam, giảm đau lưng, mỏi gối, tê nhức chân tay.</li>
-                        <li>Dùng cho người yếu sinh lý, chức năng thận suy giảm, thận hư, thận kém, xuất tinh sớm, rối loạn
-                            cương dương, suy nhược cơ thể.
-                        </li>
+                        <li>Bổ thận tráng dương, sinh tinh bổ huyết giúp tăng cường sinh lực nam giới.</li>
+                        <li>Tăng cường nồng độ hoocmon nội sinh nam giới giúp cải thiện sinh lý nam, tăng xúc cảm và hưng phấn tình dục.</li>
+                        <li>Điều trị tất cả các trường hợp rối loạn cương dương, dương vật không đủ cương, xuất tinh sớm.</li>
+                        <li>Điều trị các trường hợp chất lượng tinh trùng kém, đau lưng, mỏi gối, ù tai, chóng mặt, mệt mỏi, di tinh, mộng tinh, tiểu rắt, hay đi tiểu đêm.</li>
+                        <li>Giúp nam giới lấy lại sinh lực, hồi phục sức mạnh, sự trẻ trung, sung mãn, phong độ, sức chịu đựng và mang lại sức sống tràn trề.</li>
+                        <li>Điều trị suy giảm chức năng sinh lý cho nam giới, vô sinh, hiếm muộn do tinh lạnh, tinh loãng, ngăn ngừa và chống lại những bất thường về tinh trùng.</li>
+                        <li>Giúp bồi bổ sức khỏe, bổ thận tráng dương, tăng cường sinh lực, giảm căng thẳng mệt mỏi, tăng khả năng làm việc trí óc và chân tay.</li>
                     </ul>
-                    <p>Lưu ý: Không dùng cho người dưới 18 tuổi, người có mẫn cảm với bất cứ thành phần nào của sản phẩm.
-                    </p>
                 </div>
                 <div class="col-sm-4">
                     <img src="/frontend/image/couple.png" alt="">
@@ -416,36 +416,31 @@
             <h3 class="text-center">Chuyên gia đánh giá</h3>
             <div class="row first">
                 <div class="col-sm-5 text-center">
-                    <img src="/frontend/image/bac-si-nguyen-thi-tuyet-lan.jpg" alt="">
-                    <p><strong>ThS, Bác sĩ Nguyễn Thị Tuyết Lan - GĐ chuyên môn TT Nghiên cứu và Ứng dụng Thuốc dân
-                            tộc</strong></p>
+                    <img src="/frontend/image/bac-si-nguyen-thi-tuyet-lan.png" alt="">
+                    <p><strong>TS.BS. Phạm Hưng Củng – Nguyên Vụ trưởng Vụ Y học Cổ truyền Bộ Y Tế</strong></p>
                 </div>
                 <div class="col-sm-7 content">
-                    <p>“Bài thuốc chữa yếu sinh lý của dân tộc Thái đen là một trong những tinh hoa y học cổ truyền cần được
-                        gìn giữ và phát triển. Rất may mắn khi người Thái vốn có chữ viết riêng, nên công thức bào chế thuốc
-                        không bị thất lạc, đây là tiền đề quan trọng để các chuyên gia nghiên cứu, hoàn thiện bài thuốc, góp
-                        phần tìm ra một hướng giải pháp mới hỗ trợ điều trị chứng yếu sinh lý ở cả nam và nữ giới. Về cơ
-                        bản, bài thuốc cổ của dân tộc này đã có những tác động tích cực nhất định đến tăng tiết testosterol
-                        ở nam giới, nâng cao thể trạng, mạnh gân cốt. Qua quá trình nghiên cứu, các chuyên gia sẽ cân đối
-                        được tỉ lệ các vị thảo dược tối ưu, gia giảm thêm các vị cần thiết, đồng thời loại bỏ tạp chất bằng
-                        công nghệ hiện đại, giúp sản phẩm hoàn thiện và hiệu quả hơn”
+                    <p>“Là một bác sĩ y học cổ truyền, tôi đặc biệt đánh giá cao TPBVSK Nam Vương Mãnh Lực. Sản phẩm là một công thức độc đáo, giúp giải quyết tận gốc vấn đề của nam giới tuổi trung niên như: Cải thiện thể lực toàn diện, giúp tăng cường sức khỏe toàn thân, bổ thận tráng dương từ Lộc Nhung và Nhân sâm; hồi phục khả năng sản xuất testosterone nội sinh của cơ thể từ Trâu Cổ, Nhục Thung Dung,Dâm Dương Hoắc kết hợp với kẽm, L-Arginin; làm chậm quá trình mãn dục nam. Sản phẩm là giải pháp hàng đầu cho nam giới tuổi trung niên để có một thể lực dồi dào, sinh lý vững mạnh.”
                     </p>
                 </div>
             </div>
             <div class="row second">
                 <div class="col-sm-5 order-md-2 text-center">
-                    <img src="/frontend/image/bacsi-le-huu-tuan.jpg" alt="">
-                    <p><strong>Bác sĩ Lê Hữu Tuấn, nguyên P.GĐ TT công nghệ cao Bệnh viện Y học cổ truyền Trung
-                            Ương</strong></p>
+                    <img src="/frontend/image/bacsi-le-huu-tuan.png" alt="">
+                    <p><strong>PGS. TS. Nguyễn Thượng Dong - Nguyên viện trưởng Viện Dược liệu Trung Ương</strong></p>
                 </div>
                 <div class="col-sm-7 order-md-1 content">
-                    <p>"Nam Vương Mãnh Lực được Hội đồng khoa học đánh giá có tác dụng tốt với những người suy giảm
-                        testosterol, giảm ham muốn tình dục, dương vật ít cương cứng, rối loạn xuất tinh, hiếm muộn... Theo
-                        quan niệm của Đông y, các thành phần của Nam Vương Mãnh Lực hiệu quả trong bổ thận tráng dương,
-                        ích tủy sinh tinh, bồi bổ nguyên khí. Do vậy, tăng cao được sinh lực, khoái cảm tình dục, vun vén
-                        hạnh phúc gia đình. Sản phẩm này được ví như “thần dược sung sướng”, Thập toàn Đại bổ, không chỉ cải
-                        thiện bản lĩnh đàn ông, giữ hạnh phúc gia đình, mà còn tăng cường sức khỏe, sức lao động, sản xuất
-                        và kéo dài được tuổi thọ của con người, nâng cao chất lượng cuộc sống"
+                    <p>"Nam Vương Mãnh Lực được Hội đồng khoa học đánh giá có tác dụng tốt với những người suy giảm testosterol, giảm ham muốn tình dục, dương vật ít cương cứng, rối loạn xuất tinh, hiếm muộn... Theo quan niệm của Đông y, các thành phần của Nam Vương Mãnh Lực hiệu quả trong bổ thận tráng dương, ích tủy sinh tinh, bồi bổ nguyên khí. Do vậy, tăng cao được sinh lực, khoái cảm tình dục, vun vén hạnh phúc gia đình. Sản phẩm này được ví như “thần dược sung sướng”, Thập toàn Đại bổ, không chỉ cải thiện bản lĩnh đàn ông, giữ hạnh phúc gia đình, mà còn tăng cường sức khỏe, sức lao động, sản xuất và kéo dài được tuổi thọ của con người, nâng cao chất lượng cuộc sống"
+                    </p>
+                </div>
+            </div>
+            <div class="row first">
+                <div class="col-sm-5 text-center">
+                    <img src="/frontend/image/bacsi-ngo-van-trai.png" alt="">
+                    <p><strong>Cử nhân. Ngô Văn Trại - Chuyên gia phân loại thực vật Viện Dược liệu Trung Ương</strong></p>
+                </div>
+                <div class="col-sm-7 content">
+                    <p>“Ba Kích với hàm lượng cao có trong Nam Vương Mãnh Lực: Giúp cơ thể kích thích sản sinh testosteron ( hoocmon nam ) tự nhiên, làm tăng khả năng cương dương lâu hơn, tăng khả năng ham muốn tình dục của người đàn ông, chậm quá trình xuất tinh, làm chậm quá trình mãn dục, chất lượng tinh trùng tốt hơn.”
                     </p>
                 </div>
             </div>

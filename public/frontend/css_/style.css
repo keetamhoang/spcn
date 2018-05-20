@@ -1447,7 +1447,7 @@ img {
         padding-top: 20px
     }
     #slide-02 .img-logo {
-        max-width: 300px
+        /*max-width: 300px*/
     }
     #slide-03 .img-second {
         width: 50%

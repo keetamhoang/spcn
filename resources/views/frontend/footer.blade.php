@@ -4,6 +4,12 @@
         <h1 class="text-center center-name" style="font-size: 20px;">Nam Vương Mãnh Lực – NÂNG TẦM SUNG MÃN</h1>
         <div class="text-center">
             <ul class="sublink">
+                <li>Địa chỉ: 159 Ngô Quyền, TP Pleiku – Gia Lai</li>
+                <li style="font-size: 24px;">Hotline: 01669 943 882</li>
+            </ul>
+        </div>
+        <div class="text-center">
+            <ul class="sublink">
                 <li><a href="https://www.namvuongmanhluc.com/">Website: www.namvuongmanhluc.com</a></li>
                 <li><a href="https://www.namvuongmanhluc.com/">Email: lienhe@namvuongmanhluc.com</a></li>
             </ul>
