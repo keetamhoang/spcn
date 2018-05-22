@@ -589,23 +589,23 @@
                                 <input type="text" class="form-control" id="inputAddress"
                                        placeholder="Nhập địa chỉ giao nhận thuốc" name="content" required>
                             </div>
-                            {{--<div class="form-group col-md-6">--}}
-                                {{--<label for="inputmedical">Sản phẩm</label>--}}
-                                {{--<div class="form-check">--}}
-                                    {{--<input class="form-check-input" type="radio" name="inputmedical" id="inputmedical1"--}}
-                                           {{--value="Nam Vương Mãnh Lực Plus" checked="" data-attr="plus">--}}
-                                    {{--<label class="form-check-label" for="inputmedical1">--}}
-                                        {{--Nam Vương Mãnh Lực PLus--}}
-                                    {{--</label>--}}
-                                {{--</div>--}}
-                                {{--<div class="form-check">--}}
-                                    {{--<input class="form-check-input" type="radio" name="inputmedical" id="inputmedical2"--}}
-                                           {{--value="Nam Vương Mãnh Lực phổ thông" data-attr="pt">--}}
-                                    {{--<label class="form-check-label" for="inputmedical2">--}}
-                                        {{--Nam Vương Mãnh Lực phổ thông--}}
-                                    {{--</label>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
+                            <div class="form-group col-md-6">
+                                <label for="inputmedical">Sản phẩm</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inputmedical" id="inputmedical1"
+                                           value="Nam Vương Mãnh Lực Plus" checked="" data-attr="plus">
+                                    <label class="form-check-label" for="inputmedical1">
+                                        Nam Vương Mãnh Lực PLus
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inputmedical" id="inputmedical2"
+                                           value="Nam Vương Mãnh Lực phổ thông" data-attr="pt">
+                                    <label class="form-check-label" for="inputmedical2">
+                                        Nam Vương Mãnh Lực phổ thông
+                                    </label>
+                                </div>
+                            </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Đặt mua ngay</button>
                         <p>
@@ -708,3 +708,4 @@
         });
     </script>
 @endsection
+

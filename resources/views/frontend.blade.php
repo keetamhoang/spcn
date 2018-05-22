@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi" prefix="og: http://ogp.me/ns#">
+<html lang="vi">
 <head>
     <!-- Facebook Pixel Code -->
     <script>
@@ -38,30 +38,20 @@
     <!-- This site is optimized with the Yoast SEO plugin v7.1 - https://yoast.com/wordpress/plugins/seo/ -->
     <meta name="description"
           content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
-    <link rel="canonical" href="http://namvuongmanhluc.com/">
+    <link rel="canonical" href="http://namvuongmanhluc.xyz/">
     <meta property="og:locale" content="vi_VN">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Nam Vương Mãnh Lực - Nâng Tầm Sung Mãn">
     <meta property="og:description"
           content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
-    <meta property="og:url" content="http://www.namvuongmanhluc.com/">
-    <meta property="og:image" content="http://namvuongmanhluc.com/banner.jpg"/>
+    <meta property="og:url" content="http://www.namvuongmanhluc.xyz/">
     <meta property="og:site_name" content="Nam Vương Mãnh Lực">
-    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="http://namvuongmanhluc.xyz/banner.jpg"/>
     <meta name="twitter:description"
           content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
     <meta name="twitter:title" content="Nam Vương Mãnh Lực - Nâng Tầm Sung Mãn">
-    <script type="text/javascript" async="" src="/frontend/js_/analytics.js"></script>
     <script id="facebook-jssdk" src="/frontend/js_/sdk.js"></script>
 
-    <link rel="dns-prefetch" href="https://s.w.org/">
-    <link rel="alternate" type="application/rss+xml" title="Dòng thông tin Nam Vương Mãnh Lực »"
-          href="http://namvuongmanhluc.com/feed/">
-    <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi Nam Vương Mãnh Lực »"
-          href="http://namvuongmanhluc.com/comments/feed/">
-    <link rel="alternate" type="application/rss+xml" title="Nam Vương Mãnh Lực » Trang chủ Dòng phản hồi"
-          href="http://namvuongmanhluc.com/trang-chu/feed/">
-    <script src="/frontend/js_/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
     <style type="text/css">
         img.wp-smiley,
         img.emoji {
@@ -589,10 +579,6 @@ charset = "utf-8" ></script>
         <span style="vertical-align: bottom; width: 300px; height: 320px;">
            </span></div>
 </div>
-<script type="text/javascript"
-        src="/frontend/js_/comment-reply.min.js"></script>
-<script type="text/javascript"
-        src="/frontend/js_/wp-embed.min.js"></script>
 <script async="async" type="text/javascript"
         src="/frontend/js_/form.js"></script>
 
