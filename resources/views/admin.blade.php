@@ -304,7 +304,7 @@
     <!-- END CONTAINER -->
     <!-- BEGIN FOOTER -->
     <div class="page-footer">
-        <div class="page-footer-inner"> {{ \Carbon\Carbon::now()->year }} &copy; namvuongmanhluc.com Powered by Kee Tam Hoàng
+        <div class="page-footer-inner"> {{ \Carbon\Carbon::now()->year }} &copy; namvuongmanhluc.xyz Powered by Kee Tam Hoàng
         </div>
         <div class="scroll-to-top">
             <i class="icon-arrow-up"></i>

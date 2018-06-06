@@ -257,20 +257,20 @@
                         </p>
 
                         <p><a target="_blank" class="readmore"
-                              href="{{'http://namvuongmanhluc.com/bai-viet/nam-vuong-manh-luc-bi-an-than-duoc-sung-suong-cua-nguoi-gia-rai-7'}}">Tìm
+                              href="{{'http://namvuongmanhluc.xyz/bai-viet/nam-vuong-manh-luc-bi-an-than-duoc-sung-suong-cua-nguoi-gia-rai-7'}}">Tìm
                                 hiểu thêm</a></p>
                     </div>
 
                 </div>
-                <div class="col-md-5">
+                {{--<div class="col-md-5">--}}
 
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-qSLp44q2qQ"
-                                frameborder="0"
-                                allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
-                    </div>
-                    <h4>Nam Vương Mãnh Lực - Bí ẩn phòng the của người Thái Đen</h4>
-                </div>
+                    {{--<div class="embed-responsive embed-responsive-16by9">--}}
+                        {{--<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-qSLp44q2qQ"--}}
+                                {{--frameborder="0"--}}
+                                {{--allow="autoplay; encrypted-media" allowfullscreen=""></iframe>--}}
+                    {{--</div>--}}
+                    {{--<h4>Nam Vương Mãnh Lực - Bí ẩn phòng the của người Thái Đen</h4>--}}
+                {{--</div>--}}
             </div>
         </div>
     </section>

@@ -98,7 +98,7 @@
     </form>
     <!-- END FORGOT PASSWORD FORM -->
 </div>
-<div class="copyright"> 2018 © namvuongmanhluc.com. </div>
+<div class="copyright"> 2018 © namvuongmanhluc.xyz. </div>
 <!--[if lt IE 9]>
 <script src="/assets/global/plugins/respond.min.js"></script>
 <script src="/assets/global/plugins/excanvas.min.js"></script>
