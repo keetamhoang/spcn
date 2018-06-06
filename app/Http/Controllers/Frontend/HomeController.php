@@ -13,11 +13,7 @@ use Image;
 class HomeController extends Controller
 {
     public function index(Request $request) {
-        if ($request->getHost() == 'namvuongmanhluc.xyz') {
-            return view('frontend.index');
-        } else {
-            return view('frontend.index2');
-        }
+        return view('frontend.index');
     }
 
     public function question(Request $request) {

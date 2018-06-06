@@ -50,7 +50,6 @@
     <meta name="twitter:description"
           content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
     <meta name="twitter:title" content="Nam Vương Mãnh Lực - Nâng Tầm Sung Mãn">
-    <script id="facebook-jssdk" src="/frontend/js_/sdk.js"></script>
 
     <style type="text/css">
         img.wp-smiley,
