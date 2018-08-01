@@ -257,7 +257,7 @@
                         </p>
 
                         <p><a target="_blank" class="readmore"
-                              href="{{'http://namvuongmanhluc.xyz/bai-viet/nam-vuong-manh-luc-bi-an-than-duoc-sung-suong-cua-nguoi-gia-rai-7'}}">Tìm
+                              href="{{'http://namvuongmanhluc.com/bai-viet/nam-vuong-manh-luc-bi-an-than-duoc-sung-suong-cua-nguoi-gia-rai-7'}}">Tìm
                                 hiểu thêm</a></p>
                     </div>
 

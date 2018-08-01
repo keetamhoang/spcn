@@ -10,8 +10,8 @@
         </div>
         <div class="text-center">
             <ul class="sublink">
-                <li><a href="https://www.namvuongmanhluc.xyz/">Website: www.namvuongmanhluc.xyz</a></li>
-                <li><a href="https://www.namvuongmanhluc.xyz/">Email: lienhe@namvuongmanhluc.xyz</a></li>
+                <li><a href="https://www.namvuongmanhluc.com/">Website: www.namvuongmanhluc.com</a></li>
+                <li><a href="https://www.namvuongmanhluc.com/">Email: lienhe@namvuongmanhluc.com</a></li>
             </ul>
             <p><strong>Facebook</strong> : <a href="https://www.facebook.com/Nam-V%C6%B0%C6%A1ng-M%C3%A3nh-L%E1%BB%B1c-474590932959964"
                                               target="_blank">Nam Vương Mãnh Lực - Nâng tầm Sung mãn</a></p>

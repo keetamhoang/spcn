@@ -38,15 +38,15 @@
     <!-- This site is optimized with the Yoast SEO plugin v7.1 - https://yoast.com/wordpress/plugins/seo/ -->
     <meta name="description"
           content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
-    <link rel="canonical" href="http://namvuongmanhluc.xyz/">
+    <link rel="canonical" href="http://namvuongmanhluc.com/">
     <meta property="og:locale" content="vi_VN">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Nam Vương Mãnh Lực - Nâng Tầm Sung Mãn">
     <meta property="og:description"
           content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
-    <meta property="og:url" content="http://www.namvuongmanhluc.xyz/">
+    <meta property="og:url" content="http://www.namvuongmanhluc.com/">
     <meta property="og:site_name" content="Nam Vương Mãnh Lực">
-    <meta property="og:image" content="http://namvuongmanhluc.xyz/banner.jpg"/>
+    <meta property="og:image" content="http://namvuongmanhluc.com/banner.jpg"/>
     <meta name="twitter:description"
           content="Kết tinh từ thảo dược quý, giúp tăng cường khả năng sinh lý, khắc phục xuất tinh sớm, cải thiện chất lượng cuộc yêu.">
     <meta name="twitter:title" content="Nam Vương Mãnh Lực - Nâng Tầm Sung Mãn">
